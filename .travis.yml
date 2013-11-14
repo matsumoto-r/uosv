@@ -4,6 +4,7 @@ compiler:
 before_install:
   - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
   - sudo apt-get -qq update
+  - sudo apt-get -qq upgrade
 install:
   - sudo apt-get -qq install rake openjdk-7-jdk autotools-dev libltdl-dev libtool autoconf autopoint libboost-all-dev
   - sudo apt-get -qq install genromfs zfs-fuse autoconf ant libffi-dev ruby bison gyp git build-essential
