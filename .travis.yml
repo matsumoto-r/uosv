@@ -13,7 +13,7 @@ install:
   - sudo apt-get -qq install genromfs zfs-fuse autoconf ant libffi-dev ruby bison gyp git build-essential
   - sudo apt-get -qq install qemu-kvm bridge-utils libvirt0 libvirt-bin
   - sudo apt-get -qq install g++-4.8
-  - wget http://launchpadlibrarian.net/155499889/qemu-utils_1.5.0%2Bdfsg-3ubuntu5.1_i386.deb
+  - wget http://launchpadlibrarian.net/146319231/qemu-utils_1.5.0%2Bdfsg-3ubuntu3_amd64.deb
   - sudo dpkg -i qemu-utils*.deb
   - cd ../
   - mkdir libuv
